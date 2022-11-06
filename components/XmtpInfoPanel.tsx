@@ -82,7 +82,7 @@ const XmtpInfoPanel = ({ onConnect }: XmtpInfoPanelProps): JSX.Element => {
     <div className="hidden md:block m-auto w-[464px]">
       <div className="pb-6">
         <div className="text-xl text-n-600 font-semibold mb-1">
-          Welcome to the web3 communication protocol
+          Welcome Confi Platform
         </div>
         <div className="text-md text-n-300">
           Get started by reading the docs or joining the community
