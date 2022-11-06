@@ -62,13 +62,6 @@ const XmtpInfoPanel = ({ onConnect }: XmtpInfoPanelProps): JSX.Element => {
       disabled: !!walletAddress,
     },
     {
-      icon: <BookOpenIcon />,
-      headingText: 'Read the docs',
-      subHeadingText:
-        'Check out the documentation for our protocol and find out how to get up and running quickly',
-      onClick: () => window.open('https://docs.xmtp.org', '_blank'),
-    },
-    {
       icon: <UserGroupIcon />,
       headingText: 'Join our community',
       subHeadingText:
@@ -85,7 +78,7 @@ const XmtpInfoPanel = ({ onConnect }: XmtpInfoPanelProps): JSX.Element => {
           Welcome Confi Platform
         </div>
         <div className="text-md text-n-300">
-          Get started by reading the docs or joining the community
+          A safe place to report sexual harassment
         </div>
       </div>
       <div>
