@@ -113,7 +113,7 @@ export const WalletProvider = ({
 
   useEffect(() => {
     const infuraId =
-      process.env.NEXT_PUBLIC_INFURA_ID || 'b6058e03f2cd4108ac890d3876a56d0d'
+      process.env.NEXT_PUBLIC_INFURA_ID='c1a9de3366d041cabb5dd75901d1140c' || 'b6058e03f2cd4108ac890d3876a56d0d'
     const providerOptions: IProviderOptions = {
       walletconnect: {
         package: WalletConnectProvider,
